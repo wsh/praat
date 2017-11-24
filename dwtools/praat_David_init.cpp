@@ -5379,7 +5379,7 @@ FORM (NEW_Sound_to_KlattGrid_simple, U"Sound: To KlattGrid (simple)", U"Sound: T
 	POSITIVE (timeStep, U"Time step (s)", U"0.005")
 	LABEL (U"Formant determination")
 	NATURAL (numberOfFormants, U"Max. number of formants", U"5")
-	POSITIVE (maximumFormant, U"Maximum formant (Hz)", U"5500 (= adult female)")
+	POSITIVE (maximumFormant, U"Maximum formant (Hz)", U"5500 (= high-pitched adult)")
 	POSITIVE (windowLength, U"Window length (s)", U"0.025")
 	POSITIVE (preEmphasisFrequency, U"Pre-emphasis from (Hz)", U"50.0")
 	LABEL (U"Pitch determination")

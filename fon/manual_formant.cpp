@@ -359,16 +359,16 @@ DEFINITION (U"the number of formant tracks that the procedure must find. If this
 	"a frame with less than three formants, the tracking procedure will fail.")
 TAG (U"##Reference F1 (Hz)")
 DEFINITION (U"the preferred value near which the first track wants to be. "
-	"For average (i.e. adult female) speakers, this value will be around "
-	"the average F1 for vowels of female speakers, i.e. 550 Hz.")
+	"For average (i.e. high-pitched adult) speakers, this value will be around "
+	"the average F1 for vowels of high-pitched speakers, i.e. 550 Hz.")
 TAG (U"##Reference F2 (Hz)")
 DEFINITION (U"the preferred value near which the second track wants to be. "
 	"A good value will be around "
-	"the average F2 for vowels of female speakers, i.e. 1650 Hz.")
+	"the average F2 for vowels of high-pitched speakers, i.e. 1650 Hz.")
 TAG (U"##Reference F3 (Hz)")
 DEFINITION (U"the preferred value near which the third track wants to be. "
 	"A good value will be around "
-	"the average F3 for vowels of female speakers, i.e. 2750 Hz. "
+	"the average F3 for vowels of high-pitched speakers, i.e. 2750 Hz. "
 	"This argument will be ignored if you choose to have fewer than three tracks, "
 	"i.e., if you are only interested in F1 and F2.")
 TAG (U"##Reference F4 (Hz)")
@@ -533,8 +533,8 @@ DEFINITION (U"for most analyses of human speech, you will want to extract 5 form
 	"you can choose 4, 4.5, 5, 5.5, 6, and so on (see below).")
 TAG (U"##Maximum formant (Hz)")
 DEFINITION (U"the ceiling of the formant search range, in hertz. It is crucial that you set this to a value suitable for your speaker. "
-	"The standard value of 5500 Hz is suitable for an average adult female. For a male, use 5000 Hz; "
-	"if you use 5500 Hz for an adult male, you may end up with too few formants in the low frequency region, "
+	"The standard value of 5500 Hz is suitable for most adult women. For most men, 5000 Hz works well; "
+	"if you use 5500 Hz for a low-pitched speaker, you may end up with too few formants in the low frequency region, "
 	"e.g. analysing an [u] as having a single formant near 500 Hz whereas you want two formants at 300 and 600 Hz. "
 	"For a young child, use a value much higher than 5500 Hz, for instance 8000 Hz (experiment with it on steady vowels).")
 TAG (U"##Window length (s)")

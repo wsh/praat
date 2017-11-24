@@ -3609,10 +3609,10 @@ NORMAL (U"For a speech signal, the peaks are identified with the resonances (%fo
 	"Since the spectrum of a vowel spoken by an average human being falls off with approximately "
 	"6 dB per octave, %%pre-emphasis% is applied to the signal before the linear-prediction analysis, "
 	"so that the algorithm will not try to match only the lower parts of the spectrum.")
-NORMAL (U"For an adult female human voice, tradition assumes five formants in the range "
+NORMAL (U"For a typical woman, tradition assumes five formants in the range "
 	"between 0 and 5500 hertz, say at 550, 1650, 2750, 3850, and 4950 hertz. For the linear prediction in "
 	"Praat, you will have to implement this 5500-Hz band-limiting by resampling the original "
-	"speech signal to 11 kHz. For a male voice, you would use 10 kHz; for a young child, 20 kHz.")
+	"speech signal to 11 kHz. For a typical man, you would use 10 kHz; for a young child, 20 kHz.")
 NORMAL (U"To perform the resampling, you use @@Sound: Resample...@: "
 	"you select a @Sound object, and click ##Resample...#. "
 	"In the rest of this tutorial, I will use the syntax that you would use in a script, "

@@ -1461,7 +1461,7 @@ DO
 FORM (NEW_Sound_to_Formant_burg, U"Sound: To Formant (Burg method)", U"Sound: To Formant (burg)...") {
 	REAL (timeStep, U"Time step (s)", U"0.0 (= auto)")
 	POSITIVE (maximumNumberOfFormants, U"Max. number of formants", U"5.0")
-	REAL (maximumFormant, U"Maximum formant (Hz)", U"5500.0 (= adult female)")
+	REAL (maximumFormant, U"Maximum formant (Hz)", U"5500.0 (= high-pitched adult)")
 	POSITIVE (windowLength, U"Window length (s)", U"0.025")
 	POSITIVE (preEmphasisFrom, U"Pre-emphasis from (Hz)", U"50.0")
 	OK
@@ -1475,7 +1475,7 @@ DO
 FORM (NEW_Sound_to_Formant_keepAll, U"Sound: To Formant (keep all)", U"Sound: To Formant (keep all)...") {
 	REAL (timeStep, U"Time step (s)", U"0.0 (= auto)")
 	POSITIVE (maximumNumberOfFormants, U"Max. number of formants", U"5.0")
-	REAL (maximumFormant, U"Maximum formant (Hz)", U"5500.0 (= adult female)")
+	REAL (maximumFormant, U"Maximum formant (Hz)", U"5500.0 (= high-pitched adult)")
 	POSITIVE (windowLength, U"Window length (s)", U"0.025")
 	POSITIVE (preEmphasisFrom, U"Pre-emphasis from (Hz)", U"50.0")
 	OK
@@ -1489,7 +1489,7 @@ DO
 FORM (NEW_Sound_to_Formant_willems, U"Sound: To Formant (split Levinson (Willems))", U"Sound: To Formant (sl)...") {
 	REAL (timeStep, U"Time step (s)", U"0.0 (= auto)")
 	POSITIVE (numberOfFormants, U"Number of formants", U"5.0")
-	REAL (maximumFormant, U"Maximum formant (Hz)", U"5500.0 (= adult female)")
+	REAL (maximumFormant, U"Maximum formant (Hz)", U"5500.0 (= high-pitched adult)")
 	POSITIVE (windowLength, U"Window length (s)", U"0.025")
 	POSITIVE (preEmphasisFrom, U"Pre-emphasis from (Hz)", U"50.0")
 	OK

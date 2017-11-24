@@ -804,7 +804,7 @@ DO
 FORM (NEW_Sound_to_Formant_robust, U"Sound: To Formant (robust)", U"Sound: To Formant (robust)...") {
 	REAL (timeStep, U"Time step (s)", U"0.0 (= auto)")
 	POSITIVE (maximumNumberOfFormants, U"Max. number of formants", U"5.0")
-	REAL (maximumFormantFrequency, U"Maximum formant (Hz)", U"5500.0 (= adult female)")
+	REAL (maximumFormantFrequency, U"Maximum formant (Hz)", U"5500.0 (= high-pitched adult)")
 	POSITIVE (windowLength, U"Window length (s)", U"0.025")
 	POSITIVE (preEmphasisFrequency, U"Pre-emphasis from (Hz)", U"50.0")
 	POSITIVE (numberOfStandardDeviations, U"Number of std. dev.", U"1.5")
